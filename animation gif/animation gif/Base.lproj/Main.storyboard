@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="animation_gif" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dO2-go-BOU">
+                                <rect key="frame" x="80" y="77" width="160" height="73"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Start animation"/>
+                                <connections>
+                                    <action selector="next:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GOg-AC-gtO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yUr-4Y-leZ">
+                                <rect key="frame" x="16" y="415" width="63" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Fade in"/>
+                                <connections>
+                                    <action selector="fadein:" destination="BYZ-38-t0r" eventType="touchUpInside" id="agp-Ug-WhZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C92-bj-uhr">
+                                <rect key="frame" x="106" y="415" width="64" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Slide In"/>
+                                <connections>
+                                    <action selector="slidein:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w26-vf-5Po"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f7Q-m6-nHZ">
+                                <rect key="frame" x="226" y="415" width="47" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Grow"/>
+                                <connections>
+                                    <action selector="grow:" destination="BYZ-38-t0r" eventType="touchDragInside" id="xQF-qq-RUc"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="image_1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="D2s-Fe-ma2">
+                                <rect key="frame" x="0.0" y="185" width="320" height="198"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yUr-4Y-leZ" secondAttribute="bottom" constant="117" id="3a3-kr-uup"/>
+                            <constraint firstItem="yUr-4Y-leZ" firstAttribute="top" secondItem="D2s-Fe-ma2" secondAttribute="bottom" constant="32" id="8yS-UU-Qz8"/>
+                            <constraint firstItem="C92-bj-uhr" firstAttribute="leading" secondItem="yUr-4Y-leZ" secondAttribute="trailing" constant="27" id="BL4-Zj-9Qx"/>
+                            <constraint firstItem="f7Q-m6-nHZ" firstAttribute="top" secondItem="D2s-Fe-ma2" secondAttribute="bottom" constant="32" id="CIX-Fa-D4o"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dO2-go-BOU" secondAttribute="trailing" constant="80" id="QLS-IY-qdM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="C92-bj-uhr" secondAttribute="bottom" constant="117" id="Rsg-vQ-QGO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="f7Q-m6-nHZ" secondAttribute="trailing" constant="47" id="SUb-0K-ok7"/>
+                            <constraint firstItem="D2s-Fe-ma2" firstAttribute="top" secondItem="dO2-go-BOU" secondAttribute="bottom" constant="35" id="TeX-wB-u7c"/>
+                            <constraint firstItem="C92-bj-uhr" firstAttribute="top" secondItem="D2s-Fe-ma2" secondAttribute="bottom" constant="32" id="dtS-lr-l7O"/>
+                            <constraint firstItem="dO2-go-BOU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="57" id="k5b-iZ-iXg"/>
+                            <constraint firstItem="yUr-4Y-leZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="mzy-df-rs1"/>
+                            <constraint firstItem="D2s-Fe-ma2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="pIl-ku-usy"/>
+                            <constraint firstItem="f7Q-m6-nHZ" firstAttribute="leading" secondItem="C92-bj-uhr" secondAttribute="trailing" constant="56" id="uYp-Hr-uAx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="f7Q-m6-nHZ" secondAttribute="bottom" constant="117" id="vb9-wu-oZq"/>
+                            <constraint firstItem="dO2-go-BOU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="wXh-jv-YcS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="image1" destination="D2s-Fe-ma2" id="6mS-eb-gxi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BN9-6T-fmo">
+                    <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button"/>
+                </button>
+            </objects>
+            <point key="canvasLocation" x="138.75" y="103.52112676056338"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="image_1.jpg" width="588" height="400"/>
+    </resources>
+</document>
