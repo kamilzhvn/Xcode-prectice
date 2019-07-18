@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA3CEDBC22CC661F0065D81C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3CEDBB22CC661F0065D81C /* AppDelegate.swift */; };
+		FA3CEDBE22CC661F0065D81C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3CEDBD22CC661F0065D81C /* ViewController.swift */; };
+		FA3CEDC122CC661F0065D81C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3CEDBF22CC661F0065D81C /* Main.storyboard */; };
+		FA3CEDC422CC661F0065D81C /* Back_to_Bach.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA3CEDC222CC661F0065D81C /* Back_to_Bach.xcdatamodeld */; };
+		FA3CEDC622CC66220065D81C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3CEDC522CC66220065D81C /* Assets.xcassets */; };
+		FA3CEDC922CC66220065D81C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3CEDC722CC66220065D81C /* LaunchScreen.storyboard */; };
+		FA3CEDD422CC66220065D81C /* Back_to_BachTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3CEDD322CC66220065D81C /* Back_to_BachTests.swift */; };
+		FA3CEDDF22CC66220065D81C /* Back_to_BachUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3CEDDE22CC66220065D81C /* Back_to_BachUITests.swift */; };
+		FA3CEDEE22CC67580065D81C /* bach1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA3CEDEC22CC67570065D81C /* bach1.mp3 */; };
+		FA3CEDEF22CC67580065D81C /* bach2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA3CEDED22CC67570065D81C /* bach2.mp3 */; };
+		FA3CEDF122CC6A190065D81C /* bach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA3CEDF022CC6A190065D81C /* bach.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA3CEDD022CC66220065D81C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA3CEDB022CC661F0065D81C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA3CEDB722CC661F0065D81C;
+			remoteInfo = "Back to Bach";
+		};
+		FA3CEDDB22CC66220065D81C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA3CEDB022CC661F0065D81C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA3CEDB722CC661F0065D81C;
+			remoteInfo = "Back to Bach";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA3CEDB822CC661F0065D81C /* Back to Bach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Back to Bach.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3CEDBB22CC661F0065D81C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA3CEDBD22CC661F0065D81C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA3CEDC022CC661F0065D81C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA3CEDC322CC661F0065D81C /* Back_to_Bach.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Back_to_Bach.xcdatamodel; sourceTree = "<group>"; };
+		FA3CEDC522CC66220065D81C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA3CEDC822CC66220065D81C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA3CEDCA22CC66220065D81C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3CEDCF22CC66220065D81C /* Back to BachTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Back to BachTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3CEDD322CC66220065D81C /* Back_to_BachTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Back_to_BachTests.swift; sourceTree = "<group>"; };
+		FA3CEDD522CC66220065D81C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3CEDDA22CC66220065D81C /* Back to BachUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Back to BachUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3CEDDE22CC66220065D81C /* Back_to_BachUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Back_to_BachUITests.swift; sourceTree = "<group>"; };
+		FA3CEDE022CC66220065D81C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3CEDEC22CC67570065D81C /* bach1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bach1.mp3; path = ../../../../Downloads/bach1.mp3; sourceTree = "<group>"; };
+		FA3CEDED22CC67570065D81C /* bach2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bach2.mp3; path = ../../../../Downloads/bach2.mp3; sourceTree = "<group>"; };
+		FA3CEDF022CC6A190065D81C /* bach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bach.jpg; path = ../../../bach.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA3CEDB522CC661F0065D81C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3CEDCC22CC66220065D81C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3CEDD722CC66220065D81C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA3CEDAF22CC661F0065D81C = {
+			isa = PBXGroup;
+			children = (
+				FA3CEDBA22CC661F0065D81C /* Back to Bach */,
+				FA3CEDD222CC66220065D81C /* Back to BachTests */,
+				FA3CEDDD22CC66220065D81C /* Back to BachUITests */,
+				FA3CEDB922CC661F0065D81C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA3CEDB922CC661F0065D81C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA3CEDB822CC661F0065D81C /* Back to Bach.app */,
+				FA3CEDCF22CC66220065D81C /* Back to BachTests.xctest */,
+				FA3CEDDA22CC66220065D81C /* Back to BachUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA3CEDBA22CC661F0065D81C /* Back to Bach */ = {
+			isa = PBXGroup;
+			children = (
+				FA3CEDBB22CC661F0065D81C /* AppDelegate.swift */,
+				FA3CEDBD22CC661F0065D81C /* ViewController.swift */,
+				FA3CEDBF22CC661F0065D81C /* Main.storyboard */,
+				FA3CEDF022CC6A190065D81C /* bach.jpg */,
+				FA3CEDEC22CC67570065D81C /* bach1.mp3 */,
+				FA3CEDED22CC67570065D81C /* bach2.mp3 */,
+				FA3CEDC522CC66220065D81C /* Assets.xcassets */,
+				FA3CEDC722CC66220065D81C /* LaunchScreen.storyboard */,
+				FA3CEDCA22CC66220065D81C /* Info.plist */,
+				FA3CEDC222CC661F0065D81C /* Back_to_Bach.xcdatamodeld */,
+			);
+			path = "Back to Bach";
+			sourceTree = "<group>";
+		};
+		FA3CEDD222CC66220065D81C /* Back to BachTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA3CEDD322CC66220065D81C /* Back_to_BachTests.swift */,
+				FA3CEDD522CC66220065D81C /* Info.plist */,
+			);
+			path = "Back to BachTests";
+			sourceTree = "<group>";
+		};
+		FA3CEDDD22CC66220065D81C /* Back to BachUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA3CEDDE22CC66220065D81C /* Back_to_BachUITests.swift */,
+				FA3CEDE022CC66220065D81C /* Info.plist */,
+			);
+			path = "Back to BachUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA3CEDB722CC661F0065D81C /* Back to Bach */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3CEDE322CC66220065D81C /* Build configuration list for PBXNativeTarget "Back to Bach" */;
+			buildPhases = (
+				FA3CEDB422CC661F0065D81C /* Sources */,
+				FA3CEDB522CC661F0065D81C /* Frameworks */,
+				FA3CEDB622CC661F0065D81C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Back to Bach";
+			productName = "Back to Bach";
+			productReference = FA3CEDB822CC661F0065D81C /* Back to Bach.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA3CEDCE22CC66220065D81C /* Back to BachTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3CEDE622CC66220065D81C /* Build configuration list for PBXNativeTarget "Back to BachTests" */;
+			buildPhases = (
+				FA3CEDCB22CC66220065D81C /* Sources */,
+				FA3CEDCC22CC66220065D81C /* Frameworks */,
+				FA3CEDCD22CC66220065D81C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA3CEDD122CC66220065D81C /* PBXTargetDependency */,
+			);
+			name = "Back to BachTests";
+			productName = "Back to BachTests";
+			productReference = FA3CEDCF22CC66220065D81C /* Back to BachTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA3CEDD922CC66220065D81C /* Back to BachUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3CEDE922CC66220065D81C /* Build configuration list for PBXNativeTarget "Back to BachUITests" */;
+			buildPhases = (
+				FA3CEDD622CC66220065D81C /* Sources */,
+				FA3CEDD722CC66220065D81C /* Frameworks */,
+				FA3CEDD822CC66220065D81C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA3CEDDC22CC66220065D81C /* PBXTargetDependency */,
+			);
+			name = "Back to BachUITests";
+			productName = "Back to BachUITests";
+			productReference = FA3CEDDA22CC66220065D81C /* Back to BachUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA3CEDB022CC661F0065D81C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = macbook;
+				TargetAttributes = {
+					FA3CEDB722CC661F0065D81C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					FA3CEDCE22CC66220065D81C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FA3CEDB722CC661F0065D81C;
+					};
+					FA3CEDD922CC66220065D81C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FA3CEDB722CC661F0065D81C;
+					};
+				};
+			};
+			buildConfigurationList = FA3CEDB322CC661F0065D81C /* Build configuration list for PBXProject "Back to Bach" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA3CEDAF22CC661F0065D81C;
+			productRefGroup = FA3CEDB922CC661F0065D81C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA3CEDB722CC661F0065D81C /* Back to Bach */,
+				FA3CEDCE22CC66220065D81C /* Back to BachTests */,
+				FA3CEDD922CC66220065D81C /* Back to BachUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA3CEDB622CC661F0065D81C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3CEDC922CC66220065D81C /* LaunchScreen.storyboard in Resources */,
+				FA3CEDF122CC6A190065D81C /* bach.jpg in Resources */,
+				FA3CEDEE22CC67580065D81C /* bach1.mp3 in Resources */,
+				FA3CEDEF22CC67580065D81C /* bach2.mp3 in Resources */,
+				FA3CEDC622CC66220065D81C /* Assets.xcassets in Resources */,
+				FA3CEDC122CC661F0065D81C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3CEDCD22CC66220065D81C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3CEDD822CC66220065D81C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA3CEDB422CC661F0065D81C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3CEDBE22CC661F0065D81C /* ViewController.swift in Sources */,
+				FA3CEDBC22CC661F0065D81C /* AppDelegate.swift in Sources */,
+				FA3CEDC422CC661F0065D81C /* Back_to_Bach.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3CEDCB22CC66220065D81C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3CEDD422CC66220065D81C /* Back_to_BachTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3CEDD622CC66220065D81C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3CEDDF22CC66220065D81C /* Back_to_BachUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA3CEDD122CC66220065D81C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA3CEDB722CC661F0065D81C /* Back to Bach */;
+			targetProxy = FA3CEDD022CC66220065D81C /* PBXContainerItemProxy */;
+		};
+		FA3CEDDC22CC66220065D81C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA3CEDB722CC661F0065D81C /* Back to Bach */;
+			targetProxy = FA3CEDDB22CC66220065D81C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA3CEDBF22CC661F0065D81C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA3CEDC022CC661F0065D81C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA3CEDC722CC66220065D81C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA3CEDC822CC66220065D81C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA3CEDE122CC66220065D81C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA3CEDE222CC66220065D81C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA3CEDE422CC66220065D81C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Back to Bach/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Back-to-Bach";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA3CEDE522CC66220065D81C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Back to Bach/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Back-to-Bach";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA3CEDE722CC66220065D81C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Back to BachTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Back-to-BachTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Back to Bach.app/Back to Bach";
+			};
+			name = Debug;
+		};
+		FA3CEDE822CC66220065D81C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Back to BachTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Back-to-BachTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Back to Bach.app/Back to Bach";
+			};
+			name = Release;
+		};
+		FA3CEDEA22CC66220065D81C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Back to BachUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Back-to-BachUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Back to Bach";
+			};
+			name = Debug;
+		};
+		FA3CEDEB22CC66220065D81C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Back to BachUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Back-to-BachUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Back to Bach";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA3CEDB322CC661F0065D81C /* Build configuration list for PBXProject "Back to Bach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3CEDE122CC66220065D81C /* Debug */,
+				FA3CEDE222CC66220065D81C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA3CEDE322CC66220065D81C /* Build configuration list for PBXNativeTarget "Back to Bach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3CEDE422CC66220065D81C /* Debug */,
+				FA3CEDE522CC66220065D81C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA3CEDE622CC66220065D81C /* Build configuration list for PBXNativeTarget "Back to BachTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3CEDE722CC66220065D81C /* Debug */,
+				FA3CEDE822CC66220065D81C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA3CEDE922CC66220065D81C /* Build configuration list for PBXNativeTarget "Back to BachUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3CEDEA22CC66220065D81C /* Debug */,
+				FA3CEDEB22CC66220065D81C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA3CEDC222CC661F0065D81C /* Back_to_Bach.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA3CEDC322CC661F0065D81C /* Back_to_Bach.xcdatamodel */,
+			);
+			currentVersion = FA3CEDC322CC661F0065D81C /* Back_to_Bach.xcdatamodel */;
+			path = Back_to_Bach.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA3CEDB022CC661F0065D81C /* Project object */;
+}
