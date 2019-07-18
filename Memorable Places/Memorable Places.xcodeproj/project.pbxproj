@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA6054B922CB273F001E954A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6054B822CB273F001E954A /* AppDelegate.swift */; };
+		FA6054BB22CB273F001E954A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6054BA22CB273F001E954A /* ViewController.swift */; };
+		FA6054BE22CB273F001E954A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6054BC22CB273F001E954A /* Main.storyboard */; };
+		FA6054C122CB273F001E954A /* Memorable_Places.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA6054BF22CB273F001E954A /* Memorable_Places.xcdatamodeld */; };
+		FA6054C322CB2741001E954A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6054C222CB2741001E954A /* Assets.xcassets */; };
+		FA6054C622CB2741001E954A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6054C422CB2741001E954A /* LaunchScreen.storyboard */; };
+		FA6054D122CB2741001E954A /* Memorable_PlacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6054D022CB2741001E954A /* Memorable_PlacesTests.swift */; };
+		FA6054DC22CB2741001E954A /* Memorable_PlacesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6054DB22CB2741001E954A /* Memorable_PlacesUITests.swift */; };
+		FA6054EA22CB2B4F001E954A /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6054E922CB2B4F001E954A /* PlacesViewController.swift */; };
+		FA6054ED22CB600D001E954A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6054EC22CB600D001E954A /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA6054CD22CB2741001E954A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA6054AD22CB273F001E954A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA6054B422CB273F001E954A;
+			remoteInfo = "Memorable Places";
+		};
+		FA6054D822CB2741001E954A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA6054AD22CB273F001E954A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA6054B422CB273F001E954A;
+			remoteInfo = "Memorable Places";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA6054B522CB273F001E954A /* Memorable Places.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memorable Places.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6054B822CB273F001E954A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA6054BA22CB273F001E954A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA6054BD22CB273F001E954A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA6054C022CB273F001E954A /* Memorable_Places.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Memorable_Places.xcdatamodel; sourceTree = "<group>"; };
+		FA6054C222CB2741001E954A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA6054C522CB2741001E954A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA6054C722CB2741001E954A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6054CC22CB2741001E954A /* Memorable PlacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memorable PlacesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6054D022CB2741001E954A /* Memorable_PlacesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memorable_PlacesTests.swift; sourceTree = "<group>"; };
+		FA6054D222CB2741001E954A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6054D722CB2741001E954A /* Memorable PlacesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memorable PlacesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6054DB22CB2741001E954A /* Memorable_PlacesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memorable_PlacesUITests.swift; sourceTree = "<group>"; };
+		FA6054DD22CB2741001E954A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6054E922CB2B4F001E954A /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		FA6054EC22CB600D001E954A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA6054B222CB273F001E954A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6054ED22CB600D001E954A /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6054C922CB2741001E954A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6054D422CB2741001E954A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA6054AC22CB273F001E954A = {
+			isa = PBXGroup;
+			children = (
+				FA6054B722CB273F001E954A /* Memorable Places */,
+				FA6054CF22CB2741001E954A /* Memorable PlacesTests */,
+				FA6054DA22CB2741001E954A /* Memorable PlacesUITests */,
+				FA6054B622CB273F001E954A /* Products */,
+				FA6054EB22CB600D001E954A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA6054B622CB273F001E954A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA6054B522CB273F001E954A /* Memorable Places.app */,
+				FA6054CC22CB2741001E954A /* Memorable PlacesTests.xctest */,
+				FA6054D722CB2741001E954A /* Memorable PlacesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA6054B722CB273F001E954A /* Memorable Places */ = {
+			isa = PBXGroup;
+			children = (
+				FA6054B822CB273F001E954A /* AppDelegate.swift */,
+				FA6054BA22CB273F001E954A /* ViewController.swift */,
+				FA6054BC22CB273F001E954A /* Main.storyboard */,
+				FA6054E922CB2B4F001E954A /* PlacesViewController.swift */,
+				FA6054C222CB2741001E954A /* Assets.xcassets */,
+				FA6054C422CB2741001E954A /* LaunchScreen.storyboard */,
+				FA6054C722CB2741001E954A /* Info.plist */,
+				FA6054BF22CB273F001E954A /* Memorable_Places.xcdatamodeld */,
+			);
+			path = "Memorable Places";
+			sourceTree = "<group>";
+		};
+		FA6054CF22CB2741001E954A /* Memorable PlacesTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA6054D022CB2741001E954A /* Memorable_PlacesTests.swift */,
+				FA6054D222CB2741001E954A /* Info.plist */,
+			);
+			path = "Memorable PlacesTests";
+			sourceTree = "<group>";
+		};
+		FA6054DA22CB2741001E954A /* Memorable PlacesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA6054DB22CB2741001E954A /* Memorable_PlacesUITests.swift */,
+				FA6054DD22CB2741001E954A /* Info.plist */,
+			);
+			path = "Memorable PlacesUITests";
+			sourceTree = "<group>";
+		};
+		FA6054EB22CB600D001E954A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA6054EC22CB600D001E954A /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA6054B422CB273F001E954A /* Memorable Places */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6054E022CB2741001E954A /* Build configuration list for PBXNativeTarget "Memorable Places" */;
+			buildPhases = (
+				FA6054B122CB273F001E954A /* Sources */,
+				FA6054B222CB273F001E954A /* Frameworks */,
+				FA6054B322CB273F001E954A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Memorable Places";
+			productName = "Memorable Places";
+			productReference = FA6054B522CB273F001E954A /* Memorable Places.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA6054CB22CB2741001E954A /* Memorable PlacesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6054E322CB2741001E954A /* Build configuration list for PBXNativeTarget "Memorable PlacesTests" */;
+			buildPhases = (
+				FA6054C822CB2741001E954A /* Sources */,
+				FA6054C922CB2741001E954A /* Frameworks */,
+				FA6054CA22CB2741001E954A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA6054CE22CB2741001E954A /* PBXTargetDependency */,
+			);
+			name = "Memorable PlacesTests";
+			productName = "Memorable PlacesTests";
+			productReference = FA6054CC22CB2741001E954A /* Memorable PlacesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA6054D622CB2741001E954A /* Memorable PlacesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6054E622CB2741001E954A /* Build configuration list for PBXNativeTarget "Memorable PlacesUITests" */;
+			buildPhases = (
+				FA6054D322CB2741001E954A /* Sources */,
+				FA6054D422CB2741001E954A /* Frameworks */,
+				FA6054D522CB2741001E954A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA6054D922CB2741001E954A /* PBXTargetDependency */,
+			);
+			name = "Memorable PlacesUITests";
+			productName = "Memorable PlacesUITests";
+			productReference = FA6054D722CB2741001E954A /* Memorable PlacesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA6054AD22CB273F001E954A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = macbook;
+				TargetAttributes = {
+					FA6054B422CB273F001E954A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					FA6054CB22CB2741001E954A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FA6054B422CB273F001E954A;
+					};
+					FA6054D622CB2741001E954A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FA6054B422CB273F001E954A;
+					};
+				};
+			};
+			buildConfigurationList = FA6054B022CB273F001E954A /* Build configuration list for PBXProject "Memorable Places" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA6054AC22CB273F001E954A;
+			productRefGroup = FA6054B622CB273F001E954A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA6054B422CB273F001E954A /* Memorable Places */,
+				FA6054CB22CB2741001E954A /* Memorable PlacesTests */,
+				FA6054D622CB2741001E954A /* Memorable PlacesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA6054B322CB273F001E954A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6054C622CB2741001E954A /* LaunchScreen.storyboard in Resources */,
+				FA6054C322CB2741001E954A /* Assets.xcassets in Resources */,
+				FA6054BE22CB273F001E954A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6054CA22CB2741001E954A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6054D522CB2741001E954A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA6054B122CB273F001E954A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6054EA22CB2B4F001E954A /* PlacesViewController.swift in Sources */,
+				FA6054BB22CB273F001E954A /* ViewController.swift in Sources */,
+				FA6054C122CB273F001E954A /* Memorable_Places.xcdatamodeld in Sources */,
+				FA6054B922CB273F001E954A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6054C822CB2741001E954A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6054D122CB2741001E954A /* Memorable_PlacesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6054D322CB2741001E954A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6054DC22CB2741001E954A /* Memorable_PlacesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA6054CE22CB2741001E954A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA6054B422CB273F001E954A /* Memorable Places */;
+			targetProxy = FA6054CD22CB2741001E954A /* PBXContainerItemProxy */;
+		};
+		FA6054D922CB2741001E954A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA6054B422CB273F001E954A /* Memorable Places */;
+			targetProxy = FA6054D822CB2741001E954A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA6054BC22CB273F001E954A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA6054BD22CB273F001E954A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA6054C422CB2741001E954A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA6054C522CB2741001E954A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA6054DE22CB2741001E954A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA6054DF22CB2741001E954A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA6054E122CB2741001E954A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Memorable Places/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Memorable-Places";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA6054E222CB2741001E954A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Memorable Places/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Memorable-Places";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA6054E422CB2741001E954A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Memorable PlacesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Memorable-PlacesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memorable Places.app/Memorable Places";
+			};
+			name = Debug;
+		};
+		FA6054E522CB2741001E954A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Memorable PlacesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Memorable-PlacesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memorable Places.app/Memorable Places";
+			};
+			name = Release;
+		};
+		FA6054E722CB2741001E954A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Memorable PlacesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Memorable-PlacesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Memorable Places";
+			};
+			name = Debug;
+		};
+		FA6054E822CB2741001E954A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Memorable PlacesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Memorable-PlacesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Memorable Places";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA6054B022CB273F001E954A /* Build configuration list for PBXProject "Memorable Places" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6054DE22CB2741001E954A /* Debug */,
+				FA6054DF22CB2741001E954A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA6054E022CB2741001E954A /* Build configuration list for PBXNativeTarget "Memorable Places" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6054E122CB2741001E954A /* Debug */,
+				FA6054E222CB2741001E954A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA6054E322CB2741001E954A /* Build configuration list for PBXNativeTarget "Memorable PlacesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6054E422CB2741001E954A /* Debug */,
+				FA6054E522CB2741001E954A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA6054E622CB2741001E954A /* Build configuration list for PBXNativeTarget "Memorable PlacesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6054E722CB2741001E954A /* Debug */,
+				FA6054E822CB2741001E954A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA6054BF22CB273F001E954A /* Memorable_Places.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA6054C022CB273F001E954A /* Memorable_Places.xcdatamodel */,
+			);
+			currentVersion = FA6054C022CB273F001E954A /* Memorable_Places.xcdatamodel */;
+			path = Memorable_Places.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA6054AD22CB273F001E954A /* Project object */;
+}
